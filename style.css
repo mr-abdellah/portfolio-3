@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
     padding: 0;
@@ -7,10 +6,7 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-}
-
-.container {
-    background-color: #e5e5e5;
+    background-color: #f7f7f9;
 }
 
 .mobile-navbar {
@@ -89,4 +85,108 @@ body {
 .first-section-links img {
     width: 120%;
     height: 10%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    border-radius: 4%;
+    padding: 5%;
+    margin: 15% 0;
+}
+
+.placeholder {
+    width: 100%;
+}
+
+.project h2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.details {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details img {
+    width: 4%;
+    height: 4%;
+}
+
+.details p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+}
+
+.details .fd {
+    color: #344563;
+}
+
+.project-info {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 89%;
+    color: #344563;
+}
+
+.project-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 10%;
+    gap: 4%;
+}
+
+.project-list li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 8px;
+    padding: 3% 6%;
+}
+
+.project button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 5%;
 }
