@@ -61,7 +61,7 @@ body {
     margin-top: -12%;
 }
 
-#first-section-button {
+.button-section {
     background-color: transparent;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -189,4 +189,32 @@ body {
     border: 1px solid #6070ff;
     border-radius: 8px;
     padding: 5%;
+}
+
+.third-section {
+
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    width: 65%;
+    padding: 5%;
+    margin-bottom: -10%;
+}
+
+#h3-supporting-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding: 5%;
+    margin-bottom: -6%;
+    width: 90%;
 }
